@@ -22,8 +22,7 @@ When installing mingw, you only need the mingw32-gcc-fortran package
 Restart CMD, if it doesn't work add "[install location]\MinGW\bin" to your PATH environment variable
 
 And for the thing he uses to make the course's slides:
-pip install jupyter_contrib_nbextensions
-pip install --upgrade notebook==6.4.12
-pip uninstall traitlets
 pip install traitlets==5.9.0
+pip install notebook==6.4.12
+pip install jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
